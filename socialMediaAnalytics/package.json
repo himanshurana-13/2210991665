@@ -1,0 +1,23 @@
+{
+  "name": "socialmediaanalytics",
+  "version": "1.0.0",
+  "description": "A microservice that provides real-time analytical insights for a social media platform.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.4",
+    "express": "^5.1.0",
+    "node-cache": "^5.1.2",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
